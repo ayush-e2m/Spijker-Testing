@@ -250,6 +250,16 @@ footer {
     }
 }
 
+/* Fixed Widget at Bottom Right */
+#servicehoster-widget,
+[id*="servicehoster"],
+[class*="servicehoster"] {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 9999 !important;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .mobile-menu-toggle {
